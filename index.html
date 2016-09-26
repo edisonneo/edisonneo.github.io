@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Garden City</title>
+    <meta name="language" content="en">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" media="all" href="style.css">
+  </head>
+  <body> 
+    <div id="page-wrapper"> 
+      <div class="interface"> 
+        <div class="console">
+          <div class="dialog">
+            <div class="machine">
+              <p> <span class='text'>You wake up in a room.</span> </p>
+            </div>
+            <div class="human"><span class="prompt">> </span>
+              <input type="text" autofocus class="response">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rules">
+        <p>Rules</p>
+        <ol>
+          <li>To move around rooms type in ‘go ____’. You can move in the north, south, east and west directions.(e.g ‘go east’)</li>
+          <li>If you are in doubt where you are, type in ‘look’.</li>
+          <li>Type in ‘search around’ to discover details of the room and find important items.</li>
+          <li>Type in ‘use’ , ‘throw’ , ‘take’ with the item that you want to interact with. (e.g. ‘take pen’, ‘use paper’)</li>
+          <li>Type ‘inventory’ to check what you have in your bag.</li>
+          <li>Remember to search and explore all directions in order to get the items you need.</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+  <footer> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.slim.min.js"></script>
+    <script src="world.js"></script>
+    <script src="app.js"></script>
+  </footer>
+</html>
