@@ -1,9 +1,36 @@
+@font-face {
+    font-family: handwriting;
+    src: url(fonts/unrulyness.ttf);
+}
+
+
+@font-face {
+    font-family: hipster;
+    src: url(fonts/Hipster.ttf);
+}
+
+@font-face {
+    font-family: titles;
+    src: url(fonts/MarkusInk.otf);
+}
+
+@font-face {
+    font-family: handwriting;
+    src: url(fonts/Hanoded.ttf);
+}
+
+
 body{
-	margin: 0px
+	margin: 0px;
+	font-family: handwriting;
+	font-size: 20px;
+}
+
+p{
+	margin: 0;
 }
 
 .main{
-	border: 1px solid;
 	height: 100vh;
 	width: 100%;
 }
@@ -19,14 +46,52 @@ body{
 }
 
 .swiper-slide{
+	border: 1px solid;
 	text-align: center;
+	background-image: url(images/foolscap.jpg);
+	background-size: cover;
 }
 
+.slide-container{
+	padding: 40px;
+}
+
+.date{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.date p{
+	font-family: titles;
+	font-size: 60px;
+	margin: 0;
+}
+.content{
+	overflow: auto;
+	width: 100%;
+}
+
+.left-column, .right-column{
+	float: left;
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.left-content, .right-content{
+	
+}
+
+.swiper-slide:first-child{
+	background-image: url(images/cover.jpg);
+}
 
 .swiper-slide:nth-child(odd){
-	background: blue;
+	/*background: blue;*/
 }
 
 .swiper-slide:nth-child(even){
-	background: red;
+	/*background: red;*/
 }
