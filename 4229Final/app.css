@@ -1,0 +1,32 @@
+body{
+	margin: 0px
+}
+
+.main{
+	border: 1px solid;
+	height: 100vh;
+	width: 100%;
+}
+
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.swiper-wrapper{
+	height: 100%;
+}
+
+.swiper-slide{
+	text-align: center;
+}
+
+
+.swiper-slide:nth-child(odd){
+	background: blue;
+}
+
+.swiper-slide:nth-child(even){
+	background: red;
+}
