@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: handwriting;
-    src: url(fonts/Hanoded.ttf);
+    src: url(fonts/Lipsum.ttf);
 }
 
 
@@ -46,7 +46,7 @@ p{
 }
 
 .swiper-slide{
-	border: 1px solid;
+	
 	text-align: center;
 	background-image: url(images/foolscap.jpg);
 	background-size: cover;
@@ -58,7 +58,7 @@ p{
 
 .date{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	padding: 20px;
 }
 
@@ -68,7 +68,7 @@ p{
 	margin: 0;
 }
 .content{
-	overflow: auto;
+	/*overflow: auto;*/
 	width: 100%;
 }
 
@@ -78,10 +78,40 @@ p{
 	padding: 30px;
 	box-sizing: border-box;
 	text-align: left;
+	height: auto;
 }
 
-.left-content, .right-content{
-	
+img{
+	width: 100%;
+	margin: auto;
+}
+
+.cover-page{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.cover-page p{
+	text-align: center
+	font-size: 28px;
+}
+
+.cover-page p span.big{
+	font-size: 65px;
+	font-family: hipster;
+}
+.left-content p.centered, .right-content p.centered{
+	text-align: center;
+}
+
+.back-cover{
+	background-image: url(images/back.jpg);
+}
+
+.left-content span.big, .right-content span.big{
+	font-size: 28px;
 }
 
 .swiper-slide:first-child{
@@ -95,3 +125,28 @@ p{
 .swiper-slide:nth-child(even){
 	/*background: red;*/
 }
+
+@media screen and (max-width: 768px) {
+   .left-column, .right-column{
+		width: 100%;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
