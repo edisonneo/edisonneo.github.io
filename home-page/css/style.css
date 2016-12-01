@@ -10,6 +10,7 @@ body{
 }
 
 .main-title h1{
+	perspective: 1000px;
 	font-family: Courier New;
 	font-weight: 100;
 	position: absolute;
